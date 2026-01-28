@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ImperialCraft - Un regno magnifico di Minecraft. Entra nel nostro mondo imperiale e scopri avventure senza fine.">
+    <title>ImperialCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/foto rpofilo tik tok.jpg">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="assets/foto rpofilo tik tok.jpg" alt="ImperialCraft Logo" class="logo-img">
+                <span class="logo-icon">⚜</span>
+                <span class="logo-text">ImperialCraft</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Regno</a></li>
+                <li><a href="#lore" class="nav-link">Lore</a></li>
+                <li><a href="#features" class="nav-link">Modalita'</a></li>
+                <li><a href="#server" class="nav-link">Accesso</a></li>
+                <li><a href="#staff" class="nav-link">Chi siamo</a></li>
+                <li><a href="#modulistica" class="nav-link">Moduli</a></li>
+                <li><a href="#vote" class="nav-link">Votaci</a></li>
+                <li><a href="#faq" class="nav-link">Domande</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">IMPERIALCRAFT</h1>
+            <p class="hero-subtitle">Il Regno Supremo di Minecraft</p>
+            <p class="hero-motto">"Grandezza, Potere, Eternità"</p>
+            <div class="hero-divider"></div>
+            <button class="cta-button primary-btn" onclick="document.getElementById('server').scrollIntoView({ behavior: 'smooth' })">
+                Entra Su ImperialCraft!
+            </button>
+        </div>
+        <div class="hero-particles"></div>
+    </section>
+
+    <!-- LORE SECTION -->
+    <section id="lore" class="lore">
+        <div class="container">
+            <h2 class="section-title">La Storia del Regno</h2>
+            <div class="lore-content">
+                <div class="lore-text">
+                    <p>Nel cuore di un mondo inesplorato, nacque ImperialCraft: un regno magnifico costruito su valori di potenza, lealtà e splendore. I suoi fondatori, visionari e coraggiosi, tracciarono le fondamenta di un empire che avrebbe conquistato il cuore di migliaia di giocatori.</p>
+                    
+                    <p>Durante le epoche passate, il regno si espanse oltre ogni limite, sviluppando sistemi economici sofisticati, architetture maestose e una comunità coesa come nessun'altra. Ogni pietra, ogni costruzione, ogni blocco di questo mondo parla di determinazione e grandezza.</p>
+                    
+                    <p>Oggi, ImperialCraft rappresenta il simbolo vivente di cosa si può raggiungere quando ambizione e comunità si incontrano. Qui, tu non sei un semplice giocatore: sei parte di una legacy imperiale, un membro della stirpe che costruisce il futuro.</p>
+                </div>
+                <div class="lore-divider"></div>
+                <div class="lore-image">
+                    <div class="imperial-emblem">
+                        <div class="emblem-inner">
+                            <span class="emblem-symbol">⚜</span>
+                            <p>Sigillo Imperiale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION - Pilastri del Regno -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Modalita'</h2>
+            <div class="features-grid">
+                <!-- Pilastro 1: Survival -->
+                <div class="feature-card">
+                    <div class="feature-icon">⛏</div>
+                    <h3>Survival</h3>
+                    <p>Esplora un mondo vasto e affascinante, ricco di sfide e avventure. Costruisci, esplora piu' di 100 biomi custom!</p>
+                    <div class="feature-accent"></div>
+                </div>
+
+                <!-- Pilastro 2: kitpvp -->
+                <div class="feature-card">
+                    <div class="feature-icon">⚔️</div>
+                    <h3>KitPvP</h3>
+                    <p>Sfida i tuoi amici nella kit pvp, con piu' di 10 kit da scegliere, ed uno shop, dove puoi compare diversi equipaggiamenti!</p>
+                    <div class="feature-accent"></div>
+                </div>
+
+                <!-- Pilastro 3: skyblock-->
+                <div class="feature-card">
+                    <div class="feature-icon">🏝️</div>
+                    <h3>SkyBlock</h3>
+                    <p>Migliora la tua isola nella fnatstica skyblock! Con piu di 20 item 3d custom!</p>
+                    <div class="feature-accent"></div>
+                </div>
+                <!-- Pilastro 4: bedwars --> 
+                <div class="feature-card">
+                    <div class="feature-icon">🛏️</div>
+                    <h3>BedWars</h3>
+                    <p>Gioca con tutta la community alle Badwars!</p>
+                    <div class="feature-accent"></div>
+                </div>
+                <!-- Pilastro 5: parkour -->
+                <div class="feature-card">
+                    <div class="feature-icon">🥷🏻</div>
+                    <h3>Parkour</h3>
+                    <p>Gioca nella mappa parkour ad aspirale, senza checkpoint per sfidare te stesso!</p>
+                    <div class="feature-accent"></div>
+                </div>
+                <!-- Pilastro 4: in arrivo --> 
+                <div class="feature-card">
+                    <div class="feature-icon">❗</div>
+                    <h3>IN ARRIVO!</h3>
+                    <p>Stiamo sviluppando questa nuova modalita' segreta!</p>
+                    <div class="feature-accent"></div>
+                </div><!-- Pilastro 4: bedwars --> 
+                <div class="feature-card">
+                    <div class="feature-icon">❗</div>
+                    <h3>IN ARRIVO!</h3>
+                    <p>Stiamo sviluppando questa nuova modalita' segreta!!</p>
+                    <div class="feature-accent"></div>
+                </div><!-- Pilastro 4: bedwars --> 
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Economia</h3>
+                    <p>L'Economia e' inclusa in tutte le modalita'!</p>
+                    <div class="feature-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVER IP SECTION -->
+    <section id="server" class="server-section">
+        <div class="container">
+            <h2 class="section-title">Entra nel Regno</h2>
+            <div class="server-content">
+                <div class="parchment-card">
+                    <div class="parchment-header">
+                        <h3>Indirizzo del Server</h3>
+                        <p class="parchment-subtitle">Copia e incolla per unirti al regno</p>
+                    </div>
+                    
+                    <div class="ip-display">
+                        <code id="server-ip">imperialcraft.play-serv.city</code>
+                    </div>
+
+                    <button class="cta-button primary-btn" onclick="copyServerIP()">
+                        📋 Copia Indirizzo
+                    </button>
+
+                    <div id="copy-notification" class="copy-notification">
+                        ✓ Indirizzo copiato negli appunti!
+                    </div>
+
+                    <div class="server-info">
+                        <p><strong>Versione:</strong> 1.21.10/1.21.11</p>
+                        <p><strong>Modalità:</strong> Survival,KitPvP,SkyBlock,Parkour</p>
+                        <p><strong>Giocatori:</strong> Illimitati</p>
+                        <p><strong>Piattaforma:</strong> Java & Bedrock</p>
+                    </div>
+                </div>
+
+                <div class="social-channels-card animate-scale-in">
+                    <h3>Unisciti ai Nostri Canali</h3>
+                    <p class="social-subtitle">Segui la community di IMCT ovunque!</p>
+                    <div class="social-buttons-grid">
+                        <a href="https://dsc.gg/imperialcraftita" target="_blank" class="social-btn discord-btn animate-fade-up delay-1">
+                            <span class="social-icon">💬</span>
+                            <span class="social-name">Discord</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@_.imperialcraft._" target="_blank" class="social-btn tiktok-btn animate-fade-up delay-2">
+                            <span class="social-icon">🎵</span>
+                            <span class="social-name">TikTok</span>
+                        </a>
+                        <a href="https://www.youtube.com/@ImperialCraft-ITA" target="_blank" class="social-btn youtube-btn animate-fade-up delay-3">
+                            <span class="social-icon">📺</span>
+                            <span class="social-name">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STAFF SECTION - Consiglio Imperiale -->
+    <section id="staff" class="staff-section">
+        <div class="container">
+            <h2 class="section-title">Il Consiglio Imperiale</h2>
+            <p class="staff-subtitle">Fondatori ed Amministratori del server</p>
+            
+            <div class="staff-grid">
+                <!-- Sovrano -->
+                <div class="staff-card sovereign">
+                    <div class="staff-avatar">👑</div>
+                    <h3>CEO</h3>
+                    <p class="staff-role">Aandre07pro<o/p>
+                    <p class="staff-desc">Fondatore di ImperialCraft</p>
+                </div>
+
+                <!-- Amministratori -->
+                <div class="staff-card admin">
+                    <div class="staff-avatar">👑</div>
+                    <h3>CEO</h3>
+                    <p class="staff-role">Criminale104</p>
+                    <p class="staff-desc">Fondatore di ImperialCraft</p>
+                </div>
+
+                <div class="staff-card admin">
+                    <div class="staff-avatar">⚔</div>
+                    <h3>Co-Founder</h3>
+                    <p class="staff-role">PaoloIsHere</p>
+                    <p class="staff-desc">Co-Founder di ImperialCraft</p>
+                </div>
+
+                <!-- Moderatori -->
+                <div class="staff-card moderator">
+                    <div class="staff-avatar">📜</div>
+                    <h3>GeneralMenager</h3>
+                    <p class="staff-role">Ammassi</p>
+                    <p class="staff-desc">Direttore generale del server</p>
+                </div>
+
+                <div class="staff-card moderator">
+                    <div class="staff-avatar">🏗</div>
+                    <h3>Developer</h3>
+                    <p class="staff-role">FranceOnBoost__</p>
+                    <p class="staff-desc">Programmatore del server</p>
+                </div>
+
+                <!-- Builder -->
+                <div class="staff-card builder">
+                    <div class="staff-avatar">🌟</div>
+                    <h3>Admin</h3>
+                    <p class="staff-role">B4dgam3</p>
+                    <p class="staff-desc">Amministratore del server</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODULISTICA SECTION -->
+    <section id="modulistica" class="modulistica-section">
+        <div class="container">
+            <h2 class="section-title">Modulistica</h2>
+            <div class="modulistica-grid">
+                <!-- Sinistra: Guida ai Comandi -->
+                <div class="modulistica-card commands">
+                    <h3 class="modulistica-title">📖 Guida ai Comandi</h3>
+                    <p>Scopri tutti i comandi disponibili nel nostro server per migliorare la tua esperienza di gioco.</p>
+                    <a href="https://docs.google.com/document/d/1G0_wfGC53eO-95lPQo8EDNoRoxI5qBeB6bfbjXbX0MA/edit?usp=drivesdk" target="_blank" class="modulistica-button">Visualizza Comandi</a>
+                </div>
+
+                <!-- Centro: Regolamento -->
+                <div class="modulistica-card rules main">
+                    <h3 class="modulistica-title">⚖️ Regolamento del Server</h3>
+                    <p>Leggi attentamente il regolamento principale per garantire il benessere di tutta la community.</p>
+                    <a href="https://docs.google.com/document/d/1f_4ZgdqnPQGVe6zFTOfq_udxTLCbK6eGcAYLiFn2jKA/edit?usp=drivesdk" target="_blank"class="modulistica-button">Leggi Regolamento</a>
+                </div>
+
+                <!-- Destra: Candidature Staff -->
+                <div class="modulistica-card staff-apply">
+                    <h3 class="modulistica-title">⭐ Candidature Staff</h3>
+                    <p>Vuoi far parte della nostra amministrazione? Candidati ora per diventare moderatore o builder!</p>
+                    <a href="https://docs.google.com/forms/d/1kQWtS_HQCv0WL5vhErBppAwE7rg6TvWPg84syEGZjTI/viewform?chromeless=1&edit_requested=true " target="_blank" class="modulistica-button">Candidati Ora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VOTE SECTION - Vota il Server -->
+    <section id="vote" class="vote-section">
+        <div class="container">
+            <h2 class="section-title">Supporta il Regno</h2>
+            <div class="vote-content">
+                <h3 class="vote-question">Come posso votare il server?</h3>
+                <p class="vote-description">Aiuta ImperialCraft a crescere votando su Minecraft Italia! Ogni voto ci aiuta a raggiungere più giocatori e a costruire un regno sempre più grande. Se ci voterai, otterrai ricompense esclusive in-game!</p>
+                <a href="https://minecraft-italia.net/lista/server/imperialcraft1737811677568" target="_blank" class="vote-button">
+                    Vota su Minecraft Italia
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION - Archivio Reale -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="faq-subtitle">Domande Frequenti dal Popolo</p>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Come mi unisco al server?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>Per unirti a ImperialCraft, copia l'indirizzo del server dalla sezione "Entra nel Regno" e aggiungilo come server multiplayer in Minecraft. Clicca su "Accedi", accetta di scaricare i pacchetti grafici e potrai giocare!!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Qual è la versione richiesta di Minecraft?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>ImperialCraft è ottimizzato per Minecraft Java Edition versione 1.21.10 e superiori. Assicurati di avere il launcher aggiornato.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>C'è una tassa di iscrizione?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>No! L'accesso a ImperialCraft è completamente gratuito per tutti i giocatori con un account Minecraft Premium. Nessuna tassa, nessun pagamento nascosto.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Come partecipo agli eventi?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>Gli eventi vengono annunciati nel nostro Discord ufficiale e nel server stesso. Unisciti alla community Discord e attiva le notifiche per gli annunci di eventi. Partecipare è facile: basta seguire le istruzioni date dai moderatori!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Dove trovo la guida comandi del server?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>La giuda ufficale dei comandi del server la trovi sul nostro discord!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Come mi candido staff?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>La giuda ufficale dei comandi del server la trovi sul nostro discord!</p>
+                    </div>
+                </div>
+
+
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFAQ(this)">
+                        <h3>Quali sono le regole principali?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <p>Le regole principali sono: rispetto verso altri giocatori, no hacking/exploit, no griefing al di fuori delle zone designate, e adesione al Codice Imperiale. Una lista completa è disponibile nel canale #regole del nostro Discord.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚜</span>
+                        <h3>ImperialCraft</h3>
+                    </div>
+                    <p>"Un regno, una visione, una comunità"</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigazione</h4>
+                    <ul>
+                        <li><a href="#hero">Regno</a></li>
+                        <li><a href="#lore">Lore</a></li>
+                        <li><a href="#features">Pilastri</a></li>
+                        <li><a href="#server">Accesso</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Discord</a></li>
+                        <li><a href="#" target="_blank">Twitter</a></li>
+                        <li><a href="#" target="_blank">YouTube</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Supporto</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Report Bug</a></li>
+                        <li><a href="#">Contatti</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ImperialCraft. Tutti i diritti riservati.</p>
+                <p>Minecraft è un marchio registrato di Mojang Studios.</p>
+                <p>Sito creato Da Enrico Iorio, CEO di IMCT.</p>
+                <div class="imperial-seal">⚜ ImperialCraft ⚜</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
